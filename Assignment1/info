@@ -1,0 +1,8 @@
+javac *.java
+start rmiregistry
+
+2nd terminal
+java ArithmeticServiceImpl
+
+3rd terminal
+java ArithmeticClient
